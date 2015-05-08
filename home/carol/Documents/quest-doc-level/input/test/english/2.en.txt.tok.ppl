@@ -1,0 +1,206 @@
+prostate cancer screening : take the test or not ?
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -33.0385 ppl= 1008.1 ppl1= 2013.05
+
+indeed , the psa test sometimes shows erroneous results with false negative or even false positive results , which involve unnecessary medical interventions .
+1 sentences, 24 words, 1 OOVs
+0 zeroprobs, logprob= -89.1228 ppl= 5169.52 ppl1= 7497.29
+
+enough to make already reluctant men hesitate to take screening tests .
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -42.1585 ppl= 1749.7 ppl1= 3259.94
+
+take the test or not ?
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -19.4802 ppl= 606.569 ppl1= 1764.79
+
+we asked two specialists for their opinion .
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -30.5104 ppl= 2454.99 ppl1= 6513.36
+
+in studies conducted in the united states , there was a lot of contamination between control groups , so it is difficult to interpret the data and make firm recommendations .
+1 sentences, 31 words, 0 OOVs
+0 zeroprobs, logprob= -91.7157 ppl= 734.711 ppl1= 909.017
+
+another study , this time a european one , concluded that there was a difference in mortality between patients who were screened and those who were not .
+1 sentences, 28 words, 1 OOVs
+0 zeroprobs, logprob= -74.1615 ppl= 445.27 ppl1= 558.111
+
+this study also showed , with a follow- up after 12 years , that it is between 30 and 40 % more likely for metastases to occur in the absence of screening .
+1 sentences, 33 words, 1 OOVs
+0 zeroprobs, logprob= -97.9437 ppl= 928.949 ppl1= 1150.12
+
+i therefore recommend the test from age 50 , or 40 if you have a direct relative who previously had prostate cancer .
+1 sentences, 23 words, 0 OOVs
+0 zeroprobs, logprob= -77.8284 ppl= 1749.24 ppl1= 2420.15
+
+african - american men are also more at risk .
+1 sentences, 10 words, 2 OOVs
+0 zeroprobs, logprob= -22.7143 ppl= 334.047 ppl1= 690.69
+
+the key is to make the right decision once cancer has been detected .
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -36.7654 ppl= 282.504 ppl1= 422.763
+
+there are aggressive cancers and others that are indolent .
+1 sentences, 10 words, 1 OOVs
+0 zeroprobs, logprob= -26.8514 ppl= 484.323 ppl1= 962.683
+
+the patient really needs to be made to understand the degree of risk of his cancer , by offering him the options available , not necessarily treating prostate cancers that are not long- term life threatening , and opting instead , in such cases , for active monitoring of the disease .
+1 sentences, 52 words, 0 OOVs
+0 zeroprobs, logprob= -150.195 ppl= 682.125 ppl1= 773.323
+
+today , many men in whom cancer has been detected will not be treated because their cancer is not aggressive and is not life threatening .
+1 sentences, 26 words, 0 OOVs
+0 zeroprobs, logprob= -75.7976 ppl= 641.678 ppl1= 822.794
+
+active monitoring will be suggested , and if the disease progresses , they will be offered treatment .
+1 sentences, 18 words, 0 OOVs
+0 zeroprobs, logprob= -59.4396 ppl= 1344 ppl1= 2005.38
+
+more and more , specific criteria are being determined in order to decide who should or should not be treated .
+1 sentences, 21 words, 0 OOVs
+0 zeroprobs, logprob= -51.4605 ppl= 218.33 ppl1= 282.163
+
+therefore i recommend taking the test .
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -27.1858 ppl= 2501.63 ppl1= 7650.39
+
+but the important thing is to have a discussion with your doctor to determine whether or not to take it .
+1 sentences, 21 words, 0 OOVs
+0 zeroprobs, logprob= -48.2284 ppl= 155.669 ppl1= 197.967
+
+in collaboration with the société internationale d 'urologie [ siu ] , movember has created a tool that makes it possible to evaluate the pros and cons of the psa test .
+1 sentences, 32 words, 9 OOVs
+0 zeroprobs, logprob= -50.7772 ppl= 130.532 ppl1= 161.326
+
+you can download the document ( in english for the time being , a [ french ] translation will be available shortly ) at this address : http : / / ca.movember.com / fr / mens- health / prostate- cancer- screening
+1 sentences, 41 words, 15 OOVs
+0 zeroprobs, logprob= -92.119 ppl= 2581.15 ppl1= 3491.7
+
+preventing the disease
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -11.1113 ppl= 599.557 ppl1= 5055.62
+
+unfortunately , there is no miracle recipe for preventing cancer .
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -36.8167 ppl= 1169.66 ppl1= 2223.18
+
+despite the progress in research , the adoption of healthy living habits remains the best way to reduce the risk of suffering from it .
+1 sentences, 25 words, 0 OOVs
+0 zeroprobs, logprob= -61.6177 ppl= 234.375 ppl1= 291.546
+
+it is estimated that if everyone ate well and exercised enough , 30 % of cancers could be prevented .
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -69.018 ppl= 1934.51 ppl1= 2824.22
+
+" if no more people smoked , this rate would increase to at least 50 % , " says andré beaulieu , spokesman for the canadian cancer society .
+1 sentences, 29 words, 4 OOVs
+0 zeroprobs, logprob= -79.3942 ppl= 1131.41 ppl1= 1498.88
+
+on the other hand , it is estimated that roughly 10 % of cancers are hereditary .
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -52.1037 ppl= 784.604 ppl1= 1161.25
+
+some are also completely unexplained .
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -23.1851 ppl= 2051.9 ppl1= 7314.47
+
+for the canadian cancer society , the fight against tobacco remains a priority , despite the decrease in the number of smokers .
+1 sentences, 23 words, 1 OOVs
+0 zeroprobs, logprob= -62.0356 ppl= 497.966 ppl1= 660.389
+
+cigarettes are linked to 85 % of lung cancer cases .
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -35.3897 ppl= 889.492 ppl1= 1649.1
+
+it is also a risk factor for a number of others .
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -28.1291 ppl= 145.807 ppl1= 220.849
+
+this massively damages people 's health .
+1 sentences, 7 words, 1 OOVs
+0 zeroprobs, logprob= -25.9768 ppl= 5140.18 ppl1= 21353.8
+
+" even today , there are 1.5 million smokers in quebec " deplores spokesperson andré beaulieu .
+1 sentences, 17 words, 4 OOVs
+0 zeroprobs, logprob= -50.6083 ppl= 4119.81 ppl1= 7815.27
+
+encouraging data : 10 years after giving up smoking , the risk of dying from cancer drops by half .
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -68.0281 ppl= 1735.54 ppl1= 2520.03
+
+weight
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -7.21521 ppl= 4051.39 ppl1= 1.64137e+07
+
+overweight and obesity are also conducive to the onset of the disease , according to the scc .
+1 sentences, 18 words, 1 OOVs
+0 zeroprobs, logprob= -44.8538 ppl= 310.369 ppl1= 434.97
+
+they can increase the risks of cancer of the breast , colon and rectum , oesophagus , pancreas and uterus .
+1 sentences, 21 words, 4 OOVs
+0 zeroprobs, logprob= -50.6146 ppl= 648.522 ppl1= 949.144
+
+" research shows that the regular practice of physical activity throughout your life protects against colon cancer " it is also said .
+1 sentences, 23 words, 1 OOVs
+0 zeroprobs, logprob= -71.2399 ppl= 1251.37 ppl1= 1730.52
+
+diet
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -7.78826 ppl= 7836.64 ppl1= 6.1413e+07
+
+the organisation also recommends limiting your consumption of red meat .
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -48.9486 ppl= 11996.3 ppl1= 28175.4
+
+in large amounts , it increases the risks of developing colo- rectal cancer .
+1 sentences, 14 words, 2 OOVs
+0 zeroprobs, logprob= -36.8587 ppl= 684.357 ppl1= 1179.12
+
+likewise , so do cured meat products , and these should be avoided .
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -53.3114 ppl= 3581.75 ppl1= 6426.27
+
+the conservation of meat by smoking , drying or curing can cause the formation of carcinogens .
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -64.3531 ppl= 3759.88 ppl1= 6102.08
+
+" they can damage cells in the body and lead to the development of cancer " it is explained .
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -57.0355 ppl= 519.967 ppl1= 710.845
+
+vitamins
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -8.6143 ppl= 20283.7 ppl1= 4.11429e+08
+
+in recent years , a number of scientists have studied the links between vitamin supplements and cancer .
+1 sentences, 18 words, 0 OOVs
+0 zeroprobs, logprob= -51.3465 ppl= 504.021 ppl1= 712.171
+
+for the time being however their research is inconclusive .
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -31.7988 ppl= 777.671 ppl1= 1513.13
+
+studies on vitamin e are contradictory , according to the scc .
+1 sentences, 12 words, 1 OOVs
+0 zeroprobs, logprob= -38.8546 ppl= 1729.36 ppl1= 3405.95
+
+while one study noted a decrease in the risk of prostate cancer , another noted an increase .
+1 sentences, 18 words, 0 OOVs
+0 zeroprobs, logprob= -56.3259 ppl= 921.56 ppl1= 1346.54
+
+also the effect of vitamin d on cancer is not clear .
+1 sentences, 12 words, 1 OOVs
+0 zeroprobs, logprob= -28.6778 ppl= 245.367 ppl1= 404.644
+
+in addition , mr beaulieu emphasises the importance of discussing your concerns and family history with your doctor .
+1 sentences, 19 words, 3 OOVs
+0 zeroprobs, logprob= -53.5328 ppl= 1409.24 ppl1= 2217.16
+
+" taking a screening test doesn 't give you cancer . "
+1 sentences, 12 words, 2 OOVs
+0 zeroprobs, logprob= -41.3285 ppl= 5716.59 ppl1= 13578.5
+
+file /home/carol/Documents/quest-doc-level/home/carol/Documents/quest-doc-level/input/test/english/2.en.txt.tok: 51 sentences, 870 words, 55 OOVs
+0 zeroprobs, logprob= -2553.61 ppl= 888.663 ppl1= 1359.12
