@@ -14,10 +14,10 @@ import shef.mt.features.util.Doc;
 import shef.mt.tools.LanguageModel;
 
 /**
- * average trigram frequency in quartile 1 of frequency (lower frequency words)
- * in the corpus of the source sentence
+ * Average trigram frequency in quartile 1 of frequency (lower frequency words)
+ * in the corpus of the source document
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  */
 public class DocLevelFeature1054 extends DocLevelFeature {
@@ -27,7 +27,7 @@ public class DocLevelFeature1054 extends DocLevelFeature {
 
     public DocLevelFeature1054() {
         setIndex(1054);
-        setDescription("average trigram frequency in quartile 1 of frequency (lower frequency words) in the corpus of the source sentence");
+        setDescription("average trigram frequency in quartile 1 of frequency (lower frequency words) in the corpus of the source document");
         this.addResource("ngramcount");
     }
 

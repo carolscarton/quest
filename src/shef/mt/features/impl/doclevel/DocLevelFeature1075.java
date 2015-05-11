@@ -8,16 +8,16 @@ import shef.mt.features.util.Sentence;
 import shef.mt.features.util.Doc;
 
 /**
- * percentage of punctuation marks in target
+ * Percentage of punctuation marks in target document
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  */
 public class DocLevelFeature1075 extends DocLevelFeature {
 
     public DocLevelFeature1075() {
         setIndex(1075);
-        setDescription("percentage of punctuation marks in target");
+        setDescription("percentage of punctuation marks in target document");
     }
 
     public void run(Sentence source, Sentence target) {

@@ -10,12 +10,11 @@ import shef.mt.features.util.Doc;
 import shef.mt.features.util.Sentence;
 
 /**
- *
- * @author carol
+ * Number of occurrences of the target word within the target hypothesis (averaged for all words in the hypothesis - type/token ratio)
+ * 
+ * @author Carolina Scarton
  */
 public class DocLevelFeature1015 extends DocLevelFeature{
-    private int toks = 0;
-    private int utoks = 0;
     
     public DocLevelFeature1015() {
         setIndex(1015);
@@ -23,9 +22,6 @@ public class DocLevelFeature1015 extends DocLevelFeature{
 
     }
 
-    /* (non-Javadoc)
-     * @see wlv.mt.features.impl.Feature#run(wlv.mt.features.util.Sentence, wlv.mt.features.util.Sentence)
-     */
     @Override
     public void run(Sentence source, Sentence target) {
         // TODO Auto-generated method stub

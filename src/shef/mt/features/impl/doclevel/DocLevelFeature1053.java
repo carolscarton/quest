@@ -14,10 +14,10 @@ import shef.mt.features.util.Sentence;
 import shef.mt.tools.LanguageModel;
 
 /**
- * average bigram frequency in quartile 4 of frequency (lower frequency words)
- * in the corpus of the source sentence
+ * Average bigram frequency in quartile 4 of frequency (lower frequency words)
+ * in the corpus of the source document
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  */
 public class DocLevelFeature1053 extends DocLevelFeature {
@@ -27,13 +27,11 @@ public class DocLevelFeature1053 extends DocLevelFeature {
 
     public DocLevelFeature1053() {
         setIndex(1053);
-        setDescription(" average bigram frequency in quartile 4 of frequency (lower frequency words) in the corpus of the source sentence");
+        setDescription("average bigram frequency in quartile 4 of frequency (lower frequency words) in the corpus of the source document");
         this.addResource("ngramcount");
     }
 
-    /* (non-Javadoc)
-     * @see wlv.mt.features.impl.Feature#run(wlv.mt.features.util.Sentence, wlv.mt.features.util.Sentence)
-     */
+
     @Override
     public void run(Sentence source, Sentence target) {
         // TODO Auto-generated method stub

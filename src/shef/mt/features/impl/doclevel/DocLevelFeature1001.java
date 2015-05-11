@@ -11,8 +11,9 @@ import java.util.*;
 
     
 /**
- *
- * @author carol
+ * Number of tokens in the source document
+ * 
+ * @author Carolina Scarton
  */
 public class DocLevelFeature1001 extends DocLevelFeature {
     public DocLevelFeature1001(){

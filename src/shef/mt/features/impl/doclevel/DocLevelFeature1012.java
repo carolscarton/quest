@@ -12,9 +12,9 @@ import java.util.HashSet;
 import shef.mt.features.impl.DocLevelFeature;
 
 /**
- * source sentence log probability
+ * Target document log probability
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  */
 public class DocLevelFeature1012 extends DocLevelFeature {

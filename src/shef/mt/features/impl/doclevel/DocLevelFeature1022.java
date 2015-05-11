@@ -13,10 +13,10 @@ import shef.mt.tools.Giza;
 import shef.mt.tools.Giza2;
 
 /**
- * average number of translations per source word in the sentence (threshold in
+ * Average number of translations per source word in the document (threshold in
  * giza1: prob > 0.2)
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  *
  */
@@ -26,13 +26,11 @@ public class DocLevelFeature1022 extends DocLevelFeature {
 
     public DocLevelFeature1022() {
         setIndex(1022);
-        setDescription("average number of translations per source word in the sentence (threshold in giza1: prob > 0.2)");
+        setDescription("average number of translations per source word in the document (threshold in giza1: prob > 0.2)");
         this.addResource("Giza");
     }
 
-    /* (non-Javadoc)
-     * @see wlv.mt.features.util.Feature#run(wlv.mt.features.util.Sentence, wlv.mt.features.util.Sentence)
-     */
+    
     @Override
     public void run(Sentence source, Sentence target) {
 

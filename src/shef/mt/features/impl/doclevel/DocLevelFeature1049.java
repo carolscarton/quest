@@ -14,10 +14,10 @@ import shef.mt.features.util.Sentence;
 import shef.mt.tools.LanguageModel;
 
 /**
- * average unigram frequency in quartile 4 of frequency (lower frequency words)
- * in the corpus of the source sentence
+ * Average unigram frequency in quartile 4 of frequency (lower frequency words)
+ * in the corpus of the source document
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  */
 public class DocLevelFeature1049 extends DocLevelFeature {
@@ -27,7 +27,7 @@ public class DocLevelFeature1049 extends DocLevelFeature {
 
     public DocLevelFeature1049() {
         setIndex(1049);
-        setDescription(" average unigram frequency in quartile 4 of frequency (lower frequency words) in the corpus of the source sentence");
+        setDescription(" average unigram frequency in quartile 4 of frequency (lower frequency words) in the corpus of the source document");
         this.addResource("ngramcount");
     }
 

@@ -9,9 +9,9 @@ import java.util.*;
 
 
 /**
- * average token length in source
+ * Average token length in source (document-level)
  *
- * @author Catalina Hallett
+ * @author Carolina Scarton
  *
  *
  */

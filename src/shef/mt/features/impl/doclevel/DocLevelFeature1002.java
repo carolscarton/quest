@@ -11,12 +11,13 @@ import java.util.*;
 
     
 /**
- *
- * @author carol
+ * Number of tokens in the target document
+ * 
+ * @author Carolina Scarton
  */
 public class DocLevelFeature1002 extends DocLevelFeature {
     public DocLevelFeature1002(){
-        setIndex(1001);
+        setIndex(1002);
         setDescription("number of tokens in the target document");
     }
 

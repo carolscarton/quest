@@ -14,9 +14,9 @@ import shef.mt.tools.LanguageModel;
 
 /**
  *
- * percentage of distinct unigrams seen in the corpus (in all quartiles)
+ * Percentage of distinct unigrams seen in the corpus (in all quartiles) - document-level
  *
- * @author Catalina Hallett
+ * @author Carolina scarton
  *
  */
 public class DocLevelFeature1058 extends DocLevelFeature {
@@ -25,7 +25,7 @@ public class DocLevelFeature1058 extends DocLevelFeature {
 
     public DocLevelFeature1058() {
         setIndex(1058);
-        setDescription("percentage of distinct unigrams seen in the corpus (in all quartiles)");
+        setDescription("percentage of distinct unigrams seen in the corpus (in all quartiles) - document-level");
         this.addResource("ngramcount");
     }
 
