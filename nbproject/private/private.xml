@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/carol/Documents/quest/src/shef/mt/tools/DocLevelProcessorFactory.java</file>
+        <file>file:/home/carol/Documents/quest/config/config_doc_level.properties</file>
+        <file>file:/home/carol/Documents/quest/config/features/features_doc_level.xml</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/tools/TopicDistributionProcessor.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1046.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1049.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1050.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1053.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1054.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1057.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1058.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1074.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1075.java</file>
+        <file>file:/home/carol/Documents/quest/src/shef/mt/features/impl/bb/doclevel/DocLevelFeature1002.java</file>
+    </open-files>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/GHPaetzold/quest/quest_master/quest/src/shef/mt/tools/WordLevelProcessorFactory.java</file>
