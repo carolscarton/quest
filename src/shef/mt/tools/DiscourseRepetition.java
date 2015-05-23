@@ -54,6 +54,7 @@ public class DiscourseRepetition extends ResourceProcessor {
         String word;
         for (String token:sentence_tags){
             
+            System.out.println(token);
             tag = token.split("_")[1].trim();
             word = token.split("_")[0].trim();
                          
