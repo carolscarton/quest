@@ -54,44 +54,44 @@ public class DiscourseRepetition extends ResourceProcessor {
         String word;
         for (String token:sentence_tags){
             
-            System.out.println(token);
-            tag = token.split("_")[1].trim();
-            word = token.split("_")[0].trim();
-                         
-            if ((PosTagger.isNoun(tag)) || (PosTagger.isVerb(tag)) || (tag.equals("ADJ")) || (tag.equals("ADV"))){
-                lemma = token.split("_")[2].trim();
-                if (PosTagger.isNoun(tag)){
-                    if (nounRepetition.containsKey(word+"_"+tag)){
-                        nounRepetition.put(word+"_"+tag,nounRepetition.get(word+"_"+tag)+1);
+            if(token.split("_").length==3){
+                tag = token.split("_")[1].trim();
+                word = token.split("_")[0].trim();
+
+                if ((PosTagger.isNoun(tag)) || (PosTagger.isVerb(tag)) || (tag.equals("ADJ")) || (tag.equals("ADV"))){
+                    lemma = token.split("_")[2].trim();
+                    if (PosTagger.isNoun(tag)){
+                        if (nounRepetition.containsKey(word+"_"+tag)){
+                            nounRepetition.put(word+"_"+tag,nounRepetition.get(word+"_"+tag)+1);
+                        }
+                        else{
+                            nouns+=1;
+                            nounRepetition.put(word+"_"+tag, 0);
+                        }
+                    }
+
+                    //count words repetition
+                    if (wordRepetition.containsKey(word+"_"+tag)){
+                        wordRepetition.put(word+"_"+tag,wordRepetition.get(word+"_"+tag)+1);
                     }
                     else{
-                        nouns+=1;
-                        nounRepetition.put(word+"_"+tag, 0);
+                        contentWords+=1;
+                        wordRepetition.put(word+"_"+tag, 0);
+                    }
+
+                    //count lemma repetition
+                    if (lemma.equals("<unknown>")){
+                        lemma = word;
+                    }
+                    if (lemmaRepetition.containsKey(lemma+"_"+tag)){
+                        lemmaRepetition.put(lemma+"_"+tag,lemmaRepetition.get(lemma+"_"+tag)+1);
+                    }
+                    else{
+                        lemmas+=1;
+                        lemmaRepetition.put(lemma+"_"+tag, 0);
                     }
                 }
-
-                //count words repetition
-                if (wordRepetition.containsKey(word+"_"+tag)){
-                    wordRepetition.put(word+"_"+tag,wordRepetition.get(word+"_"+tag)+1);
-                }
-                else{
-                    contentWords+=1;
-                    wordRepetition.put(word+"_"+tag, 0);
-                }
-
-                //count lemma repetition
-                if (lemma.equals("<unknown>")){
-                    lemma = word;
-                }
-                if (lemmaRepetition.containsKey(lemma+"_"+tag)){
-                    lemmaRepetition.put(lemma+"_"+tag,lemmaRepetition.get(lemma+"_"+tag)+1);
-                }
-                else{
-                    lemmas+=1;
-                    lemmaRepetition.put(lemma+"_"+tag, 0);
-                }
             }
-
         }
         
         if (contentWords == 0){
