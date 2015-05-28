@@ -113,6 +113,17 @@ public class DocLevelProcessorFactory {
             sourceProcessors.add(pplProcSource);
             targetProcessors.add(pplProcTarget);
         }
+        
+        if (requirements.contains("poslogprob")) {
+            //Run SRILM on language models:
+            PPLProcessor[] pplPosProcessors = this.getLMPosProcessors();
+            PPLProcessor pplPosProcSource = pplPosProcessors[0];
+            PPLProcessor pplPosProcTarget = pplPosProcessors[1];
+
+            //Add them to processor vectors:
+            sourceProcessors.add(pplPosProcSource);
+            targetProcessors.add(pplPosProcTarget);
+        }
 
         if (requirements.contains("postags") || requirements.contains("depcounts")) {
             //Get parsing processors:
@@ -261,7 +272,36 @@ public class DocLevelProcessorFactory {
         //Return processor:
         return processor;
     }
+    private PPLProcessor[] getLMPosProcessors() {
+        //Generate output paths:
+        String sourceOutput = this.dlfe.getSourceFile() + ".poslm";
+        String targetOutput = this.dlfe.getTargetFile() + ".poslm";
 
+        //Read language models:
+        NGramExec nge = new NGramExec(this.dlfe.getResourceManager().getString("tools.ngram.path"), true);
+
+        //Get paths of LMs:
+        String sourceLM = this.dlfe.getResourceManager().getString(this.dlfe.getSourceLang() + ".poslm");
+        String targetLM = this.dlfe.getResourceManager().getString(this.dlfe.getTargetLang() + ".poslm");
+
+        //Run LM reader:
+        System.out.println("Running SRILM...");
+        System.out.println(this.dlfe.getSourceFile());
+        System.out.println(this.dlfe.getTargetFile());
+        nge.runNGramPerplex(this.dlfe.getSourceFile(), sourceOutput, sourceLM);
+        nge.runNGramPerplex(this.dlfe.getTargetFile(), targetOutput, targetLM);
+        System.out.println("SRILM finished!");
+
+        //Generate PPL processors:
+        PPLProcessor pplProcSource = new PPLProcessor(sourceOutput,
+                new String[]{"logprob", "ppl", "ppl1"});
+        PPLProcessor pplProcTarget = new PPLProcessor(targetOutput,
+                new String[]{"logprob", "ppl", "ppl1"});
+
+        //Return processors:
+        return new PPLProcessor[]{pplProcSource, pplProcTarget};
+    }
+    
     private PPLProcessor[] getLMProcessors() {
         //Generate output paths:
         String sourceOutput = this.dlfe.getSourceFile() + ".ppl";
@@ -283,13 +323,13 @@ public class DocLevelProcessorFactory {
         System.out.println("SRILM finished!");
 
         //Generate PPL processors:
-        PPLProcessor pplProcSource = new PPLProcessor(sourceOutput,
-                new String[]{"logprob", "ppl", "ppl1"});
-        PPLProcessor pplProcTarget = new PPLProcessor(targetOutput,
-                new String[]{"logprob", "ppl", "ppl1"});
+        PPLProcessor pplPosProcSource = new PPLProcessor(sourceOutput,
+                new String[]{"poslogprob", "posppl", "posppl1"});
+        PPLProcessor pplPosProcTarget = new PPLProcessor(targetOutput,
+                new String[]{"poslogprob", "posppl", "posppl1"});
 
         //Return processors:
-        return new PPLProcessor[]{pplProcSource, pplProcTarget};
+        return new PPLProcessor[]{pplPosProcSource, pplPosProcTarget};
     }
 
     private LanguageModel[] getNGramModels() {

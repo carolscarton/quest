@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features>
+    <disablefeature class="shef.mt.features.impl.doclevel.DocLevelFeature1098" description="" index="1098"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1094" description="" index="1094"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1093" description="" index="1093"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1092" description="" index="1092"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1091" description="" index="1091"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1090" description="" index="1090"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1089" description="" index="1089"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1088" description="" index="1088"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1087" description="" index="1087"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1086" description="" index="1086"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1085" description="" index="1085"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1084" description="" index="1084"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1083" description="" index="1083"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1051" description="" index="1051"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1052" description="" index="1052"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1055" description="" index="1055"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1056" description="" index="1056"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1059" description="" index="1059"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1060" description="" index="1060"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1061" description="" index="1061"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1048" description="" index="1048"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1047" description="" index="1047"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1030" description="" index="1030"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1032" description="" index="1032"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1034" description="" index="1034"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1038" description="" index="1038"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1040" description="" index="1040"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1044" description="" index="1044"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1042" description="" index="1042"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1028" description="" index="1028"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1026" description="" index="1026"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1024" description="" index="1024"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1022" description="" index="1022"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1020" description="" index="1020"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1018" description="" index="1018"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1016" description="" index="1016"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1003" description="" index="1003"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1004" description="" index="1004"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1005" description="" index="1005"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1010" description="" index="1010"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1011" description="" index="1011"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1013" description="" index="1013"/>    
+    <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1014" description="" index="1014"/>    
     <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1001" description="number of tokens in the source document" index="1001"/>
     <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1002" description="number of tokens in the target document" index="1002"/>
     <feature class="shef.mt.features.impl.doclevel.DocLevelFeature1006" description="average source token length" index="1006"/>
