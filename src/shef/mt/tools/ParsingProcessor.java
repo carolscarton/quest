@@ -199,7 +199,9 @@ public class ParsingProcessor extends ResourceProcessor {
 
     @Override
     public void processNextDocument(Doc source) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        for (int i=0;i<source.getSentences().size();i++){
+            this.processNextSentence(source.getSentence(i));
+        }
     }
 
 }
