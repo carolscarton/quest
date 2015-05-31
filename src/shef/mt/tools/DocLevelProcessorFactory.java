@@ -276,7 +276,10 @@ public class DocLevelProcessorFactory {
         //Generate output paths:
         String sourceOutput = this.dlfe.getSourceFile() + ".poslm";
         String targetOutput = this.dlfe.getTargetFile() + ".poslm";
-
+        
+        File fSource = new File(sourceOutput);
+        File fTarget = new File(targetOutput);
+        
         //Read language models:
         NGramExec nge = new NGramExec(this.dlfe.getResourceManager().getString("tools.ngram.path"), true);
 
@@ -288,8 +291,17 @@ public class DocLevelProcessorFactory {
         System.out.println("Running SRILM...");
         System.out.println(this.dlfe.getSourceFile());
         System.out.println(this.dlfe.getTargetFile());
-        nge.runNGramPerplex(this.dlfe.getSourceFile(), sourceOutput, sourceLM);
-        nge.runNGramPerplex(this.dlfe.getTargetFile(), targetOutput, targetLM);
+        if (fSource.exists() && fSource.length() != 0) {
+            System.out.println(this.dlfe.getSourceFile()+" exists! SRILIM will not run!");
+        }else{
+            nge.runNGramPerplex(this.dlfe.getSourceFile(), sourceOutput, sourceLM);
+        }
+        if (fTarget.exists() && fTarget.length() != 0) {
+            System.out.println(this.dlfe.getTargetFile()+" exists! SRILIM will not run!");
+        }else{
+            nge.runNGramPerplex(this.dlfe.getTargetFile(), targetOutput, targetLM);
+        }
+        
         System.out.println("SRILM finished!");
 
         //Generate PPL processors:
@@ -307,6 +319,9 @@ public class DocLevelProcessorFactory {
         String sourceOutput = this.dlfe.getSourceFile() + ".ppl";
         String targetOutput = this.dlfe.getTargetFile() + ".ppl";
 
+        File fSource = new File(sourceOutput);
+        File fTarget = new File(targetOutput);
+        
         //Read language models:
         NGramExec nge = new NGramExec(this.dlfe.getResourceManager().getString("tools.ngram.path"), true);
 
@@ -318,8 +333,16 @@ public class DocLevelProcessorFactory {
         System.out.println("Running SRILM...");
         System.out.println(this.dlfe.getSourceFile());
         System.out.println(this.dlfe.getTargetFile());
-        nge.runNGramPerplex(this.dlfe.getSourceFile(), sourceOutput, sourceLM);
-        nge.runNGramPerplex(this.dlfe.getTargetFile(), targetOutput, targetLM);
+        if (fSource.exists() && fSource.length() != 0) {
+            System.out.println(this.dlfe.getSourceFile()+" exists! SRILIM will not run!");
+        }else{
+            nge.runNGramPerplex(this.dlfe.getSourceFile(), sourceOutput, sourceLM);
+        }
+        if (fTarget.exists() && fTarget.length() != 0) {
+            System.out.println(this.dlfe.getTargetFile()+" exists! SRILIM will not run!");
+        }else{
+            nge.runNGramPerplex(this.dlfe.getTargetFile(), targetOutput, targetLM);
+        }
         System.out.println("SRILM finished!");
 
         //Generate PPL processors:
@@ -450,7 +473,7 @@ public class DocLevelProcessorFactory {
             PosTagger tagger = (PosTagger) c.newInstance();
             tagger.setParameters("target", posNameTarget, posTargetTaggerPath,
                     absoluteTargetFilePath, outputFileTarget);
-            PosTagger.ForceRun(true);
+            PosTagger.ForceRun(false);
             targetOutput = tagger.run();
         } catch (Exception e) {
             e.printStackTrace();
@@ -461,7 +484,7 @@ public class DocLevelProcessorFactory {
             PosTagger tagger = (PosTagger) c.newInstance();
             tagger.setParameters("source", posNameSource, posSourceTaggerPath,
                     absoluteSourceFilePath, outputFileSource);
-            PosTagger.ForceRun(true);
+            PosTagger.ForceRun(false);
             sourceOutput = tagger.run();
         } catch (Exception e) {
             e.printStackTrace();
